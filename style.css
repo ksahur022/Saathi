@@ -98,6 +98,72 @@ a:hover {
   text-decoration: none;
   color: var(--primary-color);
 }
+.navbar-brand{
+  width:50px;
+  height:30px;
+}
+.centered-container {
+  background-color: rgb(56, 20, 20); /* Background color */
+  color: white; /* Text color */
+  padding: 20px; /* Padding around the text */
+  border-radius: 8px; /* Optional: rounded corners */
+  text-align: center; /* Center the text */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: shadow effect */
+  width: 500px;
+  justify-items: center;
+  justify-content: center;
+  position: absolute; /* Use absolute positioning */
+  top: 85%; /* Position it 50% from the top */
+  left: 50%; /* Position it 50% from the left */
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  margin: 0; /* Remove default margin */
+}
+
+.about-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.about-block {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.about-block.reverse {
+  flex-direction: row-reverse;
+}
+
+.about-image {
+  width: 40%;
+  height: auto;
+  border-radius: 8px;
+  margin: 10px;
+  margin: 10px 10px 10px 0;
+}
+
+.about-text {
+  width: 50%;
+  padding: 20px;
+  margin-left:100px;
+  justify-items: center;
+}
+
+.about-text h2 {
+  margin-top: 0;
+}
+p{
+  color: black;
+}
+
+.about-text ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
 
 /*------------ Background Color -----------*/
 .bg-gray {
